@@ -1,0 +1,26 @@
+{
+  "name": "most-successful-instagram-bot-ever",
+  "version": "1.0.0",
+  "description": "proof of concept for web posts",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-json-modules app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/god-s-perfect-idiot/Most-Successful-Instagram-Bot-Ever.git"
+  },
+  "author": "samar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/god-s-perfect-idiot/Most-Successful-Instagram-Bot-Ever/issues"
+  },
+  "homepage": "https://github.com/god-s-perfect-idiot/Most-Successful-Instagram-Bot-Ever#readme",
+  "dependencies": {
+    "puppeteer": "^13.6.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}
